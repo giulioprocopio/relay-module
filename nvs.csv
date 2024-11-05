@@ -1,0 +1,4 @@
+key,type,encoding,value
+config,namespace,,
+pop,data,string,popcorn
+name,data,string,Relay Module
