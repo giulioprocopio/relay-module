@@ -1,0 +1,12 @@
+# MacOS
+.DS_Store
+
+# PlatformIO
+.pio
+
+# Visual Studio Code
+.vscode/
+
+# Build files
+#nvs.csv
+#nvs.bin
