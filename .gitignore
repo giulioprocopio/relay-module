@@ -3,6 +3,8 @@
 
 # PlatformIO
 .pio
+sdkconfig.*
+!sdkconfig.defaults
 
 # Visual Studio Code
 .vscode/
