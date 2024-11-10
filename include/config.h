@@ -11,9 +11,4 @@
 #define RESET_PROVISIONED_ON_BOOT 0
 #endif
 
-// Serial communication baud rate.
-#ifndef SERIAL_BAUD_RATE
-#define SERIAL_BAUD_RATE 115200
-#endif
-
 #endif

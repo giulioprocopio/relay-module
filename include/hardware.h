@@ -1,6 +1,8 @@
 #ifndef HARDWARE_H
 #define HARDWARE_H
 
-#define LED_BUILTIN_PIN 23
+#include <driver/gpio.h>
+
+#define RELAY_GPIO GPIO_NUM_13
 
 #endif
