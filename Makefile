@@ -5,7 +5,7 @@ PYTHON := $(shell which python3)
 PIO_CORE_DIR := $(shell pio system info \
 	| grep 'PlatformIO Core Directory'\
 	| tr -s ' ' | cut -d ' ' -f 4)
-PIO_BIN_DIR := .pio/build/lolin_d32
+PIO_BIN_DIR := .pio/build/esp32dev
 
 ESPTOOL := $(PIO_CORE_DIR)/packages/tool-esptoolpy/esptool.py
 
