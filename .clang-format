@@ -1,4 +1,4 @@
-# [Google C/C++ Code Style settings][1].
+# [Google C/C++ Code Style settings][1] with some modifications.
 # [1]: https://clang.llvm.org/docs/ClangFormatStyleOptions.html
 
 Language: Cpp
@@ -6,6 +6,7 @@ BasedOnStyle: Google
 AccessModifierOffset: -1
 AlignAfterOpenBracket: Align
 AlignConsecutiveAssignments: None
+AlignConsecutiveMacros: true
 AlignOperands: Align
 AllowAllArgumentsOnNextLine: true
 AllowAllConstructorInitializersOnNextLine: true
